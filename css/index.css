@@ -1,0 +1,312 @@
+.main-visual{
+  background: url(../img/mv.png) center/cover;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  color: white;
+}
+
+.wrap{
+  margin:0 auto;
+  width: 60vw;
+}
+
+.main-visual-1{
+  text-align: center;
+  font-weight: bold;
+  font-size:3rem;
+}
+
+.main-visual-2{
+  text-align: center;
+  font-weight: bold;
+  font-size:1rem;
+  padding: 1rem;
+}
+
+.index-future{
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40vh;
+}
+
+.index-future-txt{
+margin:0 auto;
+  width: 75vw;
+}
+
+.index-future-txt1{
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.index-future-txt2{
+  font-size: 1rem;
+  padding: 1rem 1rem 1rem 0;
+  line-height:1.5rem;
+}
+
+.index-service{
+  width:70vw;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.index-service-ttl{
+  text-align: center;
+  font-weight: bold;
+  font-size:2rem;
+  padding: 2rem;
+}
+
+.index-service-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index-service-item{
+  width: 50%;
+}
+
+.index-service-item img{
+  width: 30vw;
+}
+
+.index-service-item-ttl{
+  padding-top: 1rem;
+}
+
+.index-service-item-text{
+  padding:1rem 1rem 1rem 0 ;
+}
+
+
+.service-btn {
+  display: block;
+  width: 20vw;
+  padding: 1.3rem;
+  margin:0 auto;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(214, 5, 5);
+  font-weight: bold;
+}
+.service-btn:hover {
+  filter: opacity(50%);;
+  color: #fff;
+}
+
+@media screen and (max-width : 768px){
+.index-service{
+  padding:3rem 0;
+}
+
+.index-service-list{
+  flex-direction: column;
+  
+}
+
+.index-service-item{
+  width: 70vw;
+}
+
+.index-service-item img{
+  width: 70vw;
+}
+
+
+.index-service-item-ttl{
+  padding-top: 1rem;
+}
+
+.index-service-item-text{
+  padding:1rem 1rem 1rem 0 ;}
+
+.service-btn {
+  display: inline-block;
+  width: 40vw;
+  margin-left:5rem ;
+  padding: 1rem;
+
+}
+}
+
+
+
+.index-news{
+  background-color: rgb(31, 31, 31);
+  height: 80vh;
+  padding: 5rem;
+}
+
+.index-news-head{
+width: 70vw;
+margin: 0 auto;
+display: flex;
+justify-content:space-between;
+}
+
+.index-news-head-ttl{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.index-news-head-btn{
+  display: block;
+  width: 15vw;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(214, 5, 5);
+  font-weight: bold;
+}
+
+.index-news-head-btn:hover{
+  filter: opacity(50%);
+  color: #fff;
+}
+
+@media screen and (max-width : 768px){
+  .index-news-head-btn{
+  display: inline;
+  width:40vw;
+}
+}
+
+.index-news-list{
+  margin:0 auto;
+  width: 70vw;
+
+}
+
+.index-news-list-item{
+margin-top:2em ;
+}
+
+.index-news-list-link{
+background-color: #fff;
+padding:3vw;
+display: flex;
+align-items: center;
+}
+
+.index-news-list-link:hover{
+  filter: opacity(50%);
+}
+
+.index-news-list-item-date{
+  padding-right: 2rem;
+}
+
+.index-blog{
+  width:70vw;
+  margin: 0 auto;
+}
+
+.index-blog-ttl{
+  text-align: center;
+  margin: 5rem 2rem 2rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.index-blog-list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:4rem;
+}
+
+.index-blog-card-item img{
+  width: 22vw;
+}
+
+.index-blog-card-item img:hover{
+  filter: opacity(50%);
+}
+
+.index-blog-card-item-date{
+  margin:1rem 1rem 1rem 0;
+  font-size: 0.9rem;
+}
+
+.index-blog-card-item-ttl{
+  margin:0 1rem 1rem 0 ;
+}
+
+.index-blog-btn{
+  display: block;
+  width: 20vw;
+  padding: 1.3rem;
+  margin:0 auto;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(214, 5, 5);
+  font-weight: bold;
+  margin-bottom:4rem;
+}
+.index-blog-btn:hover {
+  filter: opacity(50%);
+}
+
+@media(max-width: 768px){
+.index-blog-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.index-blog-card-item img{
+  width: 70vw;
+}
+
+.index-blog-btn{
+  display: inline;
+  margin:4rem;
+}
+}
+
+.index-company-list{
+  display: flex;
+  align-items: center;
+  color:white;
+  padding-top:3rem;
+  padding-bottom:5rem ;
+}
+
+.index-company-item1{
+  display:block;
+  text-align: center;
+  font-size:1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(214, 5, 5);
+  width: 50vw;
+  height: 20vw;
+  padding-top:10vw;
+}
+
+
+.index-company-item2{
+  display:block;
+  text-align: center;
+  font-size:1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(31, 31, 31);
+  width: 50vw;
+  height: 20vw;
+  padding-top:10vw;
+ 
+}
+
+.index-company-item1:hover,.index-company-item2:hover{
+  filter: opacity(50%);
+}

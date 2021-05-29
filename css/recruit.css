@@ -1,0 +1,35 @@
+.recruit{
+  width: 70vw;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.recruit-wrap{
+  margin-bottom: 5rem;
+}
+
+.recruit-ttl{
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom:solid 1px black ;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.recruit-text{
+  padding: 1rem 1rem 1rem 0;
+}
+
+.recruit-info{
+  border: 1px solid black;
+  width: 100%;
+}
+
+.recruit-info-name,.recruit-info-data{
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+
+.recruit-info-name{
+  background-color: rgb(238, 238, 238);
+  border-right: 1px solid black;
+}

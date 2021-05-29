@@ -1,0 +1,17 @@
+.news{
+  width: 70vw;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.news-list-link {
+  display: flex;
+  align-items: center;
+  border: 1px solid #222;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.news-list-item-ttl{
+  padding-left: 1rem;
+}

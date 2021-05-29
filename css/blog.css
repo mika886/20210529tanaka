@@ -1,0 +1,39 @@
+.blog{
+  width: 85vw;
+  margin: 0 auto;
+  padding:5rem 0;
+}
+
+.blog-list {
+display: flex;
+flex-wrap: wrap;
+margin-left: 2rem;
+}
+
+.blog-item {
+margin-right:1rem;
+margin-top: 1rem;
+}
+
+.blog-item img:hover{
+  filter: opacity(50%);
+}
+
+.blog-item-img img{
+width: 25vw;
+}
+
+.blog-item-date{
+  padding: 1rem 1rem 1rem 0;
+  font-size: 0.9rem;
+}
+
+.blog-item-ttl{
+  padding-bottom:1rem;
+}
+
+@media screen and (max-width : 768px){
+.blog-item-img img{
+width: 70vw;
+}
+}

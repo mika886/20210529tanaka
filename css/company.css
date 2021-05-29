@@ -1,0 +1,15 @@
+.company{
+  width: 70vw;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.company-info{
+  width: 100%;
+  border-bottom:solid 1px black ;
+}
+
+.company-info-name,.company-info-data{
+  border-top:solid 1px black ;
+  padding: 1.5rem 0;
+}
