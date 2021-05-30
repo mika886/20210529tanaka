@@ -42,3 +42,11 @@
   font-weight: bold;
   margin-bottom:4rem;
 }
+
+@media screen and (max-width : 768px){
+  .contact-form-submit{
+  display:block;
+  width: 30vw;
+  height: auto;
+  padding: 0.5rem;
+  margin: 0 auto;

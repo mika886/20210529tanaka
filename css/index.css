@@ -129,11 +129,11 @@ margin:0 auto;
   padding:1rem 1rem 1rem 0 ;}
 
 .service-btn {
-  display: inline-block;
+  display:block;
   width: 40vw;
-  margin-left:5rem ;
-  padding: 1rem;
-
+  height: auto;
+  padding: 0.5rem;
+  margin: 0 auto;
 }
 }
 
@@ -176,8 +176,10 @@ justify-content:space-between;
 
 @media screen and (max-width : 768px){
   .index-news-head-btn{
-  display: inline;
-  width:40vw;
+  display:block;
+  width: 35vw;
+  height: auto;
+  padding: 0.5rem;
 }
 }
 
@@ -268,8 +270,11 @@ align-items: center;
 }
 
 .index-blog-btn{
-  display: inline;
-  margin:4rem;
+  display:block;
+  width: 40vw;
+  height: auto;
+  padding: 0.5rem;
+  margin: 0 auto;
 }
 }
 
